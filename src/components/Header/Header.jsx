@@ -1,9 +1,9 @@
-import React from 'react';
+import Navbar from './Navbar';
 
 const Header = () => {
     return (
-        <section>
-            this is header
+        <section className='bg-green-100 h-25 flex items-center justify-center'>
+            <Navbar />
         </section>
     );
 };
