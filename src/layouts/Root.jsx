@@ -8,7 +8,7 @@ const Root = () => {
             <header className="">
                 <Header />
             </header>
-            <main className="min-h-screen bg-gray-50 flex justify-center items-center">
+            <main className="min-h-screen bg-gray-50">
                 <Outlet />
             </main>
             <footer className="">
