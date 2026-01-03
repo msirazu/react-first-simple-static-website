@@ -1,12 +1,12 @@
 import { NavLink } from "react-router-dom";
 
 const BlogPosts = ({post}) => {
-    const {title} = post;
+    const {title, id} = post;
     return (
         <>
             <div className="border border-gray-300 p-5 rounded-lg">
                 <h2 className="capitalize font-bold text-[18px]">{title}</h2>
-                <NavLink><button className="btn capitalize mt-5">see details</button></NavLink>
+                <NavLink to={`posts/${id}`}><button className="btn capitalize mt-5">see details</button></NavLink>
             </div>
         </>
     );
